@@ -22,4 +22,4 @@ def elevation_function(latitude, longitude):
     return (result.json()['USGS_Elevation_Point_Query_Service']['Elevation_Query']['Elevation'])
 
 
-print(elevation_function(latitude, longitude) + "meters")
+print(elevation_function(latitude, longitude), "meters")
