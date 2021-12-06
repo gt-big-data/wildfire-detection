@@ -21,10 +21,11 @@
                 }
 
                 #container {
-                    width: 800px;
+                    width: fit-content(20em);
                     margin-left: 30px;
-                    margin-right: auto;
+                    margin-right: 30px;
                     margin-top: 30px;
+                    margin-bottom: 30px;
                     padding: 30px;
                     background-color: white;
                     box-shadow: 3px 3px 7px #222;
@@ -53,6 +54,8 @@
                 svg {
                     background-color: white;
                     padding-left: 20px;
+                    display: block;
+                    margin: auto;
                 }
                 
                 path {
@@ -107,11 +110,9 @@
             </div>
             <script type="text/javascript">
 
-
-
                 //Width and height
-                var w = 760;
-                var h = 600;
+                var w = 1000;
+                var h = 750;
 
                 //Define map projection
                 var projection = d3.geo.mercator()
@@ -131,7 +132,6 @@
 
                 //Load in GeoJSON data
                 d3.json("cb_2014_us_county_5m.json", function(json) {
-                    console.log(json);
                     //Bind data and create one path per GeoJSON feature
                     svg.selectAll("path")
                         .data(json.features)
@@ -154,11 +154,25 @@
                             .on("mouseout", function(){
                             d3.select("#tooltip").classed("hidden", true);
                             });
-            
+
+                    renderLocations();
                 });
-
-
-            
+                
+                function renderLocations() {
+                    d3.json("locations.json", function(locations) {
+                        svg.selectAll(null)
+                            .data(locations)
+                            .enter()
+                            .append("circle")
+                            //Convert from Lat-Long to Long-Lat for projection
+                            .attr("cx", datum => projection([datum[1], datum[0]])[0])
+                            .attr("cy", datum => projection([datum[1], datum[0]])[1])
+                            .attr("r", 1.1)
+                            .attr('stroke-width', '0.5')
+                            .attr("stroke","red")
+                            .attr("fill","none");
+                        });				
+                }
             </script>
         </body>
     </div>
