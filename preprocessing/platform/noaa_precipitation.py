@@ -2,50 +2,72 @@
     Converts NOAA precipitation data from text table to csv. See:
     https://www.cnrfc.noaa.gov/data/text/precip_google/PNM_Mar_2022.txt
 """
+import logging
 import requests
 import pandas as pd
 TABLE_START = 4
 ROW_START = 55
-START_YEAR = 2000
+START_YEAR = 2018
 END_YEAR = 2022
-
-df = pd.DataFrame()
-firstPartLink = "https://www.cnrfc.noaa.gov/data/text/precip_google/PNM"
-Month = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+MONTH_NAMES = [
+    "Jan", "Feb", "Mar", "Apr",
+    "May", "Jun", "Jul", "Aug",
+    "Sep", "Oct", "Nov", "Dec"
+]
+BASE_URL = "https://www.cnrfc.noaa.gov/data/text/precip_google/PNM"
 
 
 def generate_urls(month, year):
-    monYear = ("_" + month + "_" + str(year))
-    url = (firstPartLink + monYear + ".txt")
-    return url
+    return f'{BASE_URL}_{month}_{year}.txt'
 
 
 def get_precipitation_txt_from_url(url):
-    data = requests.get(linkName)   # response object = contents 
-    content = data.text
+    response = requests.get(url)
+    content = None
+    if response.status_code == 200:
+        content = response.text
+    else:
+        logging.error(f'''
+            Request failed with code {response.status_code} 
+            for url {url}''')
     return content
 
 
 def precipitation_txt_to_df(content, df, month, year):
+    if not content:  # empty content
+        return df
+
     lines = content.splitlines()[TABLE_START:]
     data = [line[ROW_START:].split() for line in lines]
 
     df2 = pd.DataFrame(data)
-    df2 = df2.reset_index()
     df2.columns = df2.iloc[0]
     df2 = df2[1:]
     df2['Month'] = month
     df2['Year'] = year
-    df = pd.concat([df, df2], ignore_index = True)
+    df = pd.concat([df, df2], ignore_index=True)
+
     return df
 
-def generate_csv(df, START_YEAR, END_YEAR):
-    for year in range (START_YEAR, END_YEAR + 1):
-        for month in Month:
+
+def generate_csv(df, start_year, end_year):
+    df = pd.DataFrame()
+    for year in range(start_year, end_year + 1):
+        for month in MONTH_NAMES:
             url = generate_urls(month, year)
             content = get_precipitation_txt_from_url(url)
             df = precipitation_txt_to_df(content, df, month, year)
-    df.to_csv("data_noaa_precip.csv")
+    df.to_csv("data/noaa_precip.csv")
 
+
+def test_get_noaa_data():
+    test_df = pd.DataFrame()
+    test_url = "https://www.cnrfc.noaa.gov/data/text/precip_google/PNM_Mar_2022.txt"
+    content = get_precipitation_txt_from_url(test_url)
+    test_df = precipitation_txt_to_df(content, test_df, 'Mar', 2022)
+    test_df.to_csv("data/test_noaa_precip.csv")
+
+
+df = pd.DataFrame()
 generate_csv(df, START_YEAR, END_YEAR)
-        
+# test_get_noaa_data()
