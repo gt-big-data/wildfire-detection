@@ -44,3 +44,16 @@ Code - preprocessing/platform/wind_by_zip.py
 - wind_mph
 - lat
 - lon
+
+
+## [NOAA Precipitation](https://www.cnrfc.noaa.gov/data/text/precip_google/PNM_Mar_2022.txt)
+Data - data/noaa_precip.csv
+
+Code - preprocessing/platform/noaa_precipitation.py
+
+- lat
+- lon
+- elevation_ft
+- precip_in - observed monthly precipitation (inches)
+- month
+- year

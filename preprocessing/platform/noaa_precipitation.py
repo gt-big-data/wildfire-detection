@@ -7,7 +7,7 @@ import requests
 import pandas as pd
 TABLE_START = 4
 ROW_START = 55
-START_YEAR = 2018
+START_YEAR = 2010
 END_YEAR = 2022
 MONTH_NAMES = [
     "Jan", "Feb", "Mar", "Apr",
@@ -57,15 +57,44 @@ def generate_csv(df, start_year, end_year):
             url = generate_urls(month, year)
             content = get_precipitation_txt_from_url(url)
             df = precipitation_txt_to_df(content, df, month, year)
+            print(f'Finished processing data for {month}, {year}')
+
+    df.columns = [
+        'state',
+        'lat',
+        'lon',
+        'elevation_ft',
+        'normal_precip_relative_pcnt',
+        'precip_in',
+        'normal_precip_in',
+        'month',
+        'year'
+    ]
+    df = df[df['state'] == 'CA']
+    df = df[['lat', 'lon', 'elevation_ft', 'precip_in', 'month', 'year']]
     df.to_csv("data/noaa_precip.csv")
 
 
 def test_get_noaa_data():
-    test_df = pd.DataFrame()
+    df = pd.DataFrame()
     test_url = "https://www.cnrfc.noaa.gov/data/text/precip_google/PNM_Mar_2022.txt"
     content = get_precipitation_txt_from_url(test_url)
-    test_df = precipitation_txt_to_df(content, test_df, 'Mar', 2022)
-    test_df.to_csv("data/test_noaa_precip.csv")
+    df = precipitation_txt_to_df(content, df, 'Mar', 2022)
+    df.columns = [
+        'state',
+        'lat',
+        'lon',
+        'elevation_ft',
+        'normal_precip_relative_pcnt',
+        'precip_in',
+        'normal_precip_in',
+        'month',
+        'year'
+    ]
+
+    df = df[df['state'] == 'CA']
+    df = df[['lat', 'lon', 'elevation_ft', 'precip_in', 'month', 'year']]
+    # df.to_csv("data/test_noaa_precip.csv")
 
 
 df = pd.DataFrame()
