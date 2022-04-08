@@ -1,0 +1,10 @@
+# Ignoring all these gigantic data files, keeping this file to push the empty file/directory though.
+
+**/Hansen_GFC-2020-v1.8_gain_40N_130W.tif
+**/Hansen_GFC-2020-v1.8_gain_50N_130W.tif
+**/Hansen_GFC-2020-v1.8_lossyear_40N_130W.tif
+**/Hansen_GFC-2020-v1.8_lossyear_50N_130W.tif
+**/Hansen_GFC-2020-v1.8_datamask_40N_130W.tif
+**/Hansen_GFC-2020-v1.8_datamask_50N_130W.tif
+**/Hansen_GFC-2020-v1.8_treecover2000_40N_130W.tif
+**/Hansen_GFC-2020-v1.8_treecover2000_50N_130W.tif
