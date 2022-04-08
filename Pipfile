@@ -9,6 +9,8 @@ requests = "*"
 matplotlib = "*"
 seaborn = "*"
 pytest = "*"
+openpyxl = "*"
+ipykernel = "*"
 
 [dev-packages]
 flake8 = "*"
