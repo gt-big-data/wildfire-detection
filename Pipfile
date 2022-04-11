@@ -11,6 +11,7 @@ seaborn = "*"
 pytest = "*"
 openpyxl = "*"
 ipykernel = "*"
+shapely = "*"
 
 [dev-packages]
 flake8 = "*"
