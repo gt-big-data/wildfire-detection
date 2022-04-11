@@ -1,0 +1,463 @@
+Data shown is as of Mar 6, 2022.
+                                                                                     Monthly % of normal     Observed monthly                 Average Monthly
+                                                                                     precipitation for       total precipitation              total precipitation
+                                                                             Elev    Mar 2022
+StnID  Station Name                                    State  Lat     Lon    (ft)           (%)                      (in.)                              (in.)
+9BB    WELLS                                            NV   41.12  114.97   5650            11                       0.02                              0.19
+AAT    ALTURAS(ASOS)                                    CA   41.49  120.56   4366            99                       0.29                              0.29
+ACLN2  ASH CANYON CK - CARSON CITY, NR                  NV   39.18  119.80   5080             0                       0.00                              0.32
+ACMC1  ARROYO CORTE MADERA - MILL VALLEY                CA   37.90  122.53      2            12                       0.12                              1.00
+ACV    ARCATA AIRPORT                                   CA   40.98  124.11    223             9                       0.11                              1.23
+ADMC1  ADIN MOUNTAIN                                    CA   41.23  120.79   6190            49                       0.34                              0.69
+ADRC1  AUBURN DAM RIDGE                                 CA   38.88  121.05   1200             0                       0.00                              1.05
+AGWC1  A.G. WISHON (PGE)                                CA   37.15  119.50   1000            74                       0.57                              0.77
+ALDC1  ALDERPOINT                                       CA   40.19  123.59   1059            12                       0.15                              1.23
+AMBC1  ALPINE MEADOWS                                   CA   39.16  120.24   6910            12                       0.21                              1.71
+ANDC1  COYOTE CK - ANDERSON DAM                         CA   37.17  121.63    645            11                       0.08                              0.76
+ANGC1  ANGWIN, TB                                       CA   38.57  122.44   1715            11                       0.12                              1.10
+ANPC1  ANDERSON PEAK                                    CA   36.19  121.64   3368            14                       0.21                              1.51
+ANTC1  ANTELOPE LAKE - TAYLORSVILLE, NR                 CA   40.18  120.61   4960            53                       0.22                              0.42
+APC    NAPA(ASOS)                                       CA   38.21  122.28     14            12                       0.06                              0.48
+ARFO3  PARKER MTN. - RAWS                               OR   42.10  122.28   5280            17                       0.11                              0.63
+AROC1  PAJARO - CHITTENDEN                              CA   36.90  121.60     82             7                       0.05                              0.67
+ATHC1  TEHACHAPI                                        CA   35.09  118.45   4790            52                       0.25                              0.48
+ATNC1  ACTON (RAWS)                                     CA   34.45  118.20   2600            34                       0.14                              0.41
+ATSC1  DEVILS GARDEN (CDF)                              CA   41.53  120.67   5049           127                       0.39                              0.31
+ATWC1  ATWELL CAMP (COE)                                CA   36.46  118.63   6400           105                       1.23                              1.18
+AWH    WILDHORSE RESERVOIR                              NV   41.64  115.80   6239           103                       0.25                              0.24
+BAB    BEALE AFB                                        CA   39.13  121.45    113             3                       0.02                              0.62
+BADC1  CAMP ROBERTS NR BRADLEY                          CA   35.79  120.75   1046             0                       0.00                              0.34
+BALC1  BALD MOUNTAIN (SJ COUNTY)                        CA   37.58  121.52   2865            17                       0.07                              0.41
+BAMC1  BALD MOUNTAIN (SLO COUNTY)                       CA   35.16  120.28   1500             7                       0.04                              0.61
+BASC1  CRANE VALLEY (PGE)                               CA   37.29  119.53   3400            63                       0.68                              1.07
+BATC1  BATES RIDGE                                      CA   34.92  119.92   5120             0                       0.00                              0.89
+BCHC1  BEACH MEADOWS                                    CA   36.13  118.31   7650           203                       1.09                              0.54
+BCSN2  BIG CREEK SUMMIT                                 NV   39.29  117.11   8695           244                       1.05                              0.43
+BCYC1  BLUE CANYON (DWR ETI)                            CA   39.28  120.70   5290            22                       0.42                              1.94
+BDOC1  BLUE DOOR (BLM)                                  CA   41.05  120.34   5927            27                       0.12                              0.44
+BDYC1  BRANDY CREEK                                     CA   40.62  122.57   1300             0                       0.00                              1.75
+BENC1  BEN BOLT NR LATROBE CRK                          CA   38.59  120.93    905             1                       0.01                              0.76
+BFL    BAKERSFIELD                                      CA   35.43  119.05    497           290                       0.68                              0.23
+BHNC1  CHOWCHILLA - BUCHANAN DAM                        CA   37.21  119.97    450            29                       0.14                              0.48
+BIH    BISHOP - ASOS                                    CA   37.37  118.36   4108             0                       0.00                              0.10
+BIMC1  BIG MEADOWS (DWR)                                CA   36.72  118.84   7603            68                       0.90                              1.32
+BKAC1  BROKEN ARROW RANCH                               CA   37.52  121.51   3083            18                       0.09                              0.50
+BKLC1  BUCKS LAKE                                       CA   39.85  121.24   5750            15                       0.34                              2.29
+BKSC1  BROOKS (CDF)                                     CA   38.74  122.15    355             9                       0.05                              0.57
+BLAC1  BLUE LAKES SNOTEL                                CA   38.61  119.92   8104             7                       0.10                              1.46
+BLBC1  STONY CK - BLACK BUTTE DAM                       CA   39.81  122.33    426            49                       0.28                              0.57
+BLCC1  BLOODS CREEK                                     CA   38.45  120.03   7200            14                       0.19                              1.31
+BLCN2  BAILEY CREEK                                     NV   39.36  119.68   5680            14                       0.06                              0.42
+BLH    BLYTHE FFA AIRPORT                               CA   33.61  114.71    395            41                       0.04                              0.10
+BLSC1  BLACK SPRING                                     CA   38.38  120.19   6500            34                       0.42                              1.24
+BLU    BLUE CANYON ASOS                                 CA   39.28  120.71   5276            23                       0.42                              1.82
+BMOC1  BALD MOUNTAIN (BUREC)                            CA   37.07  119.40   4720           124                       1.07                              0.86
+BNAC1  BARONA                                           CA   33.00  116.84   1280           134                       0.82                              0.61
+BNCC1  BURNS CK - BURNS RES                             CA   37.38  120.28    319             7                       0.03                              0.41
+BNDC1  BEN LOMOND                                       CA   37.13  122.17   2598            19                       0.28                              1.50
+BNGC1  BANGOR (CDF)                                     CA   39.38  121.39    839             5                       0.05                              1.01
+BNVC1  BOONVILLE (CDF)                                  CA   38.99  123.35    644            19                       0.25                              1.33
+BOGC1  BOGARD RS (USFS)                                 CA   40.60  121.08   5686            23                       0.13                              0.56
+BPTC1  EAST WALKER - BRIDGEPORT, NR                     CA   38.26  119.23   6470             0                       0.00                              0.19
+BRCC1  BEAR CK - ALPINE RD                              CA   38.07  121.21     59             0                       0.00                              0.51
+BRDC1  SALINAS - BRADLEY, NR                            CA   35.93  120.87    443             0                       0.00                              0.38
+BRRC1  BRUSH CREEK                                      CA   39.70  121.35   3560            16                       0.33                              2.13
+BTPC1  BEAR TRAP MEADOW (COE)                           CA   36.68  118.86   6800            84                       1.13                              1.34
+BTRC1  BATTLE RIDGE                                     CA   40.33  121.75   3400            43                       0.48                              1.12
+BULC1  BUELLTON MAINT YARD                              CA   34.62  120.19    530             5                       0.03                              0.58
+BUNC1  BUNNING RANCH (COE)                              CA   37.37  119.88   1520            32                       0.18                              0.56
+BZRC1  BRAZIE RANCH                                     CA   41.68  122.60   3090            63                       0.22                              0.35
+CAEC1  CALERO                                           CA   37.17  121.76    550             5                       0.05                              0.92
+CAHC1  HASTINGS (CDF)                                   CA   36.39  121.55   1824            66                       0.49                              0.75
+CAPN2  CARSON CITY AIRPORT                              NV   39.20  119.73   4710             0                       0.00                              0.20
+CAZC1  CARRIZO (BLM)                                    CA   35.10  119.77   2400            15                       0.06                              0.40
+CCEC1  COW CREEK                                        CA   40.60  121.85   2840            75                       0.81                              1.08
+CCR    CONCORD(ASOS)                                    CA   37.99  122.06     23             9                       0.04                              0.46
+CCUN2  CLEAR CREEK UPPER (NV)                           NV   39.09  119.89   7780            28                       0.22                              0.79
+CDLC1  RUSSIAN - CLOVERDALE, NR                         CA   38.88  123.05    350            21                       0.22                              1.04
+CDRC1  CEDAR PASS                                       CA   41.58  120.30   7030            82                       0.70                              0.86
+CEC    CRESCENT CITY                                    CA   41.78  124.24     56            75                       1.14                              1.52
+CESC1  CHESTER (CDF)                                    CA   40.28  121.23   4525            48                       0.40                              0.83
+CFCC1  SCORPION RAWS                                    CA   41.11  122.70   4400            10                       0.16                              1.54
+CFRC1  COFFEE RIDGE                                     CA   41.08  122.72   3040            10                       0.13                              1.26
+CGVC1  CEDAR GROVE (NPS)                                CA   36.79  118.66   4720            36                       0.40                              1.11
+CHWC1  CHEWS RIDGE                                      CA   36.31  121.57   5040            50                       0.48                              0.95
+CICC1  CHICO (CDF)                                      CA   39.71  121.78    237            17                       0.14                              0.83
+CLCC1  CLEAR CREEK                                      CA   40.64  122.73   3300             3                       0.04                              1.38
+CLFO3  CALIMUS OR - RAWS                                OR   42.63  121.56   6629             4                       0.03                              0.80
+CLNC1  CALLAHAN                                         CA   41.30  122.82   3911           109                       0.40                              0.37
+CNFC1  CRANE FLAT LOOKOUT (NPS)                         CA   37.76  119.82   6634            57                       0.64                              1.13
+CNIC1  CAMP 9 (CDF)                                     CA   34.35  118.42   4000            51                       0.34                              0.67
+CNO    CHINO(ASOS)                                      CA   33.98  117.64    650            24                       0.10                              0.42
+CNYC1  CANBY (CDF)                                      CA   41.45  120.87   4315           129                       0.43                              0.33
+COCC1  COACHELLA CANAL                                  CA   33.26  115.45    100             0                       0.00                              0.07
+CODC1  COW RIDGE                                        CA   37.26  121.65   2998            20                       0.13                              0.63
+COEC1  MORGAN HILL 6NE COE PARK                         CA   37.18  121.54   2739            13                       0.09                              0.70
+COIN2  COILS CREEK (BLM)                                NV   39.83  116.50   6800             9                       0.03                              0.33
+COLN2  CORRAL CANYON                                    NV   40.28  115.53   8500           103                       0.65                              0.63
+COUC1  MERCED RIVER (BLM)                               CA   37.65  120.08   2600            47                       0.42                              0.90
+COWC1  LYONS VLY/COW MTN (BLM)                          CA   39.13  123.07   3355            11                       0.17                              1.54
+COYC1  COYOTE CK - COYOTE RES                           CA   37.09  121.54    802             4                       0.03                              0.79
+CPLC1  CAPLES LAKE                                      CA   38.71  120.04   7980            49                       0.51                              1.04
+CQFO3  CHILOQUIN OR - RAWS                              OR   42.58  121.89   4420            11                       0.04                              0.37
+CQT    LOS ANGELES DOWNTOWN/USC                         CA   34.02  118.29    185            17                       0.08                              0.47
+CRGC1  CORNING (CDF)                                    CA   39.94  122.17    289            57                       0.32                              0.56
+CRLO3  CRATER LAKE OR (CO-OP)                           OR   42.90  122.13   6475            21                       0.31                              1.46
+CRSN2  CRANE SPRINGS (BLM)                              NV   40.46  115.85   6400           134                       0.45                              0.34
+CRXC1  CIRCLE X RANCH                                   CA   34.11  118.94   1700             0                       0.00                              0.68
+CRZC1  CRAZY PEAK (USFS)                                CA   41.98  123.61   3970            22                       0.42                              1.89
+CSMC1  CASTLE MOUNTAIN                                  CA   35.94  120.33   4000            29                       0.11                              0.39
+CSTC1  COHASSET (CDF)                                   CA   39.87  121.77   1733             5                       0.09                              1.71
+CTNC1  COTTONWOOD CREEK                                 CA   40.32  122.88   3400             4                       0.04                              0.98
+CVSC1  CALAVERAS                                        CA   38.20  120.37   3360             4                       0.05                              1.34
+CYAC1  CUYAMA FIRE STATION                              CA   34.93  119.61   2275            33                       0.11                              0.34
+DAG    DAGGETT - ASOS                                   CA   34.85  116.79   1922             0                       0.00                              0.10
+DBLC1  DIABLO GRANDE                                    CA   37.33  121.30   1861             3                       0.01                              0.39
+DCFC1  DRY CREEK FIRE STATION                           CA   38.41  122.47    555             7                       0.08                              1.19
+DDMC1  DEADMAN CREEK                                    CA   38.33  119.65   9250             3                       0.04                              1.18
+DDWC1  DIDDY WELLS                                      CA   40.70  122.09   1300             0                       0.00                              1.24
+DESC1  DE SABLA                                         CA   39.87  121.61   2710            10                       0.18                              1.86
+DKFC1  DEER CREEK FOREBAY                               CA   39.30  120.83   4455            16                       0.31                              1.96
+DNPC1  BALCH P H (PGE)                                  CA   36.91  119.09   1720            87                       0.81                              0.93
+DNRC1  DONNER CK - DONNER LK DAM                        CA   39.33  120.28   5924            27                       0.32                              1.18
+DPHC1  DRUM POWER HOUSE(PGE)                            CA   39.26  120.77   3400            18                       0.35                              1.95
+DRA    DESERT ROCK ASOS                                 NV   36.62  116.02   3301             0                       0.00                              0.13
+DRBN2  DORSEY BASIN                                     NV   40.89  115.20   8100            74                       0.49                              0.66
+DRCN2  DRAW CREEK                                       NV   41.66  115.32   7200            41                       0.19                              0.46
+DSNC1  DRY CK - SNELLING, NR                            CA   37.55  120.46    230            10                       0.04                              0.41
+DVOC1  DEVORE WATER COMPANY                             CA   34.22  117.40   2080            27                       0.30                              1.09
+DVRC1  DAVIS RANCH                                      CA   40.35  122.45    550             0                       0.00                              0.59
+DVSC1  LAKE DAVIS - PORTOLA, NR                         CA   39.88  120.48   5768            13                       0.10                              0.79
+DYCN2  DRY CREEK                                        NV   39.45  119.80   4760             6                       0.01                              0.17
+EBTC1  EBBETTS PASS SNOTEL                              CA   38.55  119.80   8765            18                       0.27                              1.52
+ECKC1  ALDER SPRINGS (CDF)                              CA   39.65  122.72   4465            34                       0.30                              0.89
+EELC1  COVELO, TB                                       CA   39.83  123.08   1500             3                       0.03                              1.17
+EGCC1  EAGLE CREEK (COE)                                CA   35.98  118.63   6700            96                       1.18                              1.22
+EKO    ELKO - ASOS                                      NV   40.83  115.79   5030            83                       0.16                              0.19
+ELKC1  ELK VALLEY                                       CA   41.99  123.72   1708            21                       0.35                              1.69
+ELPC1  SAN DIEGO-EL CAPITAN DAM                         CA   32.88  116.81    800           148                       0.83                              0.56
+ELY    ELY                                              NV   39.30  114.85   6262           228                       0.41                              0.18
+EPRC1  LITTLE STONY CK - EAST PARK RES                  CA   39.36  122.52   1200            63                       0.36                              0.57
+ESPC1  ESPERANZA (CDF)                                  CA   38.24  120.51   2559             5                       0.06                              1.13
+ESRC1  ESTRELLA - ESTRELLA, NR                          CA   35.72  120.64    672             0                       0.00                              0.39
+EVGC1  EVERGREEN                                        CA   37.30  121.74    450             5                       0.03                              0.67
+EXQC1  MERCED - MERCED FALLS, BLO                       CA   37.59  120.27    879            65                       0.43                              0.66
+FARC1  TRUCKEE - FARAD                                  CA   39.43  120.03   5153            13                       0.11                              0.81
+FAT    FRESNO                                           CA   36.78  119.72    372            53                       0.21                              0.39
+FBSC1  FORBESTOWN(PGE)                                  CA   39.52  121.27   2840            10                       0.17                              1.74
+FCHC1  FANCHER CREEK (CDF)                              CA   36.90  119.50    920            67                       0.37                              0.55
+FDDC1  FIDDLETOWN                                       CA   38.52  120.71   2160             3                       0.03                              1.16
+FGRC1  FIGUEROA MOUNTAIN                                CA   34.75  120.01   3200             8                       0.06                              0.76
+FHDC1  LITTLE LAST CHANCE CK - FRENCHMAN LAKE           CA   39.89  120.19   5517            16                       0.06                              0.38
+FHLC1  HUNTER LIGGETT AIRFIELD                          CA   36.01  121.24   1150             7                       0.03                              0.40
+FISN2  FISH SPRINGS (BLM)                               NV   38.92  119.64   5230            65                       0.15                              0.23
+FLFC1  FALLEN LEAF                                      CA   38.93  120.05   6236            32                       0.25                              0.79
+FOJC1  FORT JONES                                       CA   41.60  122.85   2725            55                       0.22                              0.40
+FRIC1  SAN JOAQUIN - MILLERTON LK                       CA   36.99  119.69    660            50                       0.24                              0.48
+FRTC1  FOUR TREES                                       CA   39.81  121.32   5150            17                       0.33                              1.99
+FSNC1  SAN DIEGO - FASHION VLY                          CA   32.77  117.17     20           178                       0.64                              0.36
+FTDC1  SMITH - FORT DICK, NR                            CA   41.88  124.14      0            46                       0.94                              2.07
+FTNC1  FOUNTAIN SPRINGS (CDF)                           CA   35.89  118.92    800           299                       1.26                              0.42
+FTSC1  EEL - FORT SEWARD                                CA   40.22  123.63    217             6                       0.08                              1.24
+FUL    FULLERTON(ASOS)                                  CA   33.87  117.98     95             0                       0.00                              0.42
+GARC1  SISQUOC - GAREY                                  CA   34.89  120.31    355             2                       0.01                              0.54
+GBRC1  SANTA YNEZ - GILBRALTAR RES                      CA   34.52  119.68   1550             1                       0.01                              0.82
+GCDC1  PALM CANYON WASH - CATHEDRAL CITY, NR            CA   33.80  116.48    320             0                       0.00                              0.09
+GDLC1  GOLD LAKE                                        CA   39.67  120.62   6920            19                       0.37                              1.92
+GDPC1  ALAMITOS                                         CA   37.24  121.87    184            14                       0.08                              0.59
+GEOC1  GEORGETOWN RANGER STATION                        CA   38.92  120.79   3011             4                       0.07                              1.62
+GGRC1  GLORIA GRADE                                     CA   36.53  121.27   2343            18                       0.12                              0.68
+GIOC1  PEABODY RANCH                                    CA   37.05  121.51    472             6                       0.05                              0.81
+GKSC1  GREEK STORE                                      CA   39.07  120.56   5580            24                       0.42                              1.73
+GNFC1  GIANT FOREST (COE)                               CA   36.56  118.77   6650            88                       1.01                              1.14
+GNLC1  GIANELLI                                         CA   38.20  119.89   8400             8                       0.13                              1.59
+GNSC1  GREEN SPRING (CDF)                               CA   37.83  120.50    999            57                       0.44                              0.77
+GOYC1  CASTRO VALLEY                                    CA   36.96  121.61    754             1                       0.01                              0.83
+GRBO3  GERBER RESERVOIR OR - RAWS                       OR   42.21  121.14   4940            20                       0.07                              0.34
+GRDC1  GIRARD                                           CA   41.13  122.28   4800             0                       0.00                              1.73
+GRHC1  GRANITE HILLS                                    CA   32.80  116.92    533           156                       0.76                              0.49
+GRMC1  GREEN MOUNTAIN                                   CA   37.55  119.24   7900            61                       0.73                              1.20
+GRMN2  GREEN MOUNTAIN                                   NV   40.38  115.53   8186           111                       0.70                              0.63
+GRPN2  GRANITE PEAK                                     NV   41.67  117.57   8543            38                       0.33                              0.86
+GTMC1  GOAT MOUNTAIN                                    CA   37.27  119.54   4520            76                       0.80                              1.06
+GUPC1  GUADALUPE WATERSHED                              CA   37.19  121.89   1680             9                       0.08                              0.92
+GVYC1  GRAVEYARD MEADOW                                 CA   37.47  119.27   6900            72                       0.82                              1.14
+HATC1  HAT CREEK PH #1 (PGE)                            CA   40.93  121.54   3015           150                       0.75                              0.50
+HDZC1  HERNANDEZ (CDF)                                  CA   36.38  120.85   3500            10                       0.07                              0.68
+HGNC1  HAGANS MEADOW                                    CA   38.85  119.94   7776            36                       0.40                              1.10
+HIDC1  FRESNO - HIDDEN DAM                              CA   37.10  119.88   2580            59                       0.26                              0.44
+HIMN2  HOLE-IN-MOUNTAIN                                 NV   40.94  115.10   8199            37                       0.24                              0.64
+HJO    HANFORD ASOS                                     CA   36.32  119.63    242            51                       0.16                              0.32
+HLCC1  HILLCREST                                        CA   40.87  121.88   3440            22                       0.30                              1.35
+HMGC1  HUMBUG                                           CA   40.12  121.37   6500            34                       0.61                              1.79
+HNTC1  HUNTINGTON LAKE                                  CA   37.23  119.22   7020           100                       1.26                              1.27
+HNZC1  SAN BENITO - HERNANDEZ RES                       CA   36.39  120.84   2412            10                       0.07                              0.69
+HONC1  HONEYDEW                                         CA   40.24  124.13    370            14                       0.28                              2.04
+HPYC1  HAPPY CAMP RANGER STA                            CA   41.80  123.38   1120            18                       0.22                              1.22
+HRZC1  HIRZ                                             CA   40.90  122.25   3200             3                       0.04                              1.54
+HSSC1  HOSSACK (COE)                                    CA   36.18  118.62   7100           110                       1.57                              1.43
+HWD    HAYWARD(ASOS)                                    CA   37.65  122.11     43            16                       0.08                              0.51
+HWKC1  HAWKEYE (CDF)                                    CA   38.73  122.84   2024             9                       0.11                              1.18
+HYFC1  HAYFORK RAWS                                     CA   40.55  123.17   2323            10                       0.13                              1.35
+ICKC1  INDEPENDENCE CK                                  CA   39.49  120.28   6456            14                       0.14                              0.99
+ICPC1  INDEPENDENCE CK - INDEPENDENCE CAMP              CA   39.45  120.29   7003            14                       0.15                              1.09
+INVC1  NF CACHE CK - INDIAN VLY DAM                     CA   39.08  122.53   1480            32                       0.19                              0.59
+IPL    IMPERIAL                                         CA   32.83  115.58      0             0                       0.00                              0.07
+IRGC1  KLAMATH - IRON GATE DAM, BLO                     CA   41.93  122.44   2162            42                       0.12                              0.28
+ISAC1  KERN - ISABELLA DAM, BLO                         CA   35.63  118.48   2515           100                       0.42                              0.42
+JAPN2  JACKS PEAK                                       NV   41.53  116.01   8420            37                       0.35                              0.94
+JCUN2  JACK CREEK UPPER                                 NV   41.55  116.00   7382            67                       0.47                              0.70
+JNRC1  JOHNSON CAMP                                     CA   37.67  121.60   2042            15                       0.06                              0.41
+JONC1  JOHNSON RANCH                                    CA   37.22  121.93    755            15                       0.12                              0.80
+JPRC1  JUNIPER CREEK (BLM)                              CA   41.33  120.47   4372           109                       0.32                              0.29
+KCYC1  SAN LORENZO CK - BITTERWATER, BLO                CA   36.27  121.07    431            25                       0.11                              0.43
+KEAC1  KEARNY MESA                                      CA   32.83  117.13    455           159                       0.65                              0.41
+KNXC1  KNOXVILLE CREEK (BLM)                            CA   38.86  122.42   2550            20                       0.22                              1.09
+KRKC1  KETTLE ROCK                                      CA   40.13  120.72   7300            48                       0.31                              0.64
+KRNC1  KERNVILLE (USFS)                                 CA   35.76  118.42   2720            53                       0.22                              0.41
+KSPC1  KAISER POINT                                     CA   37.30  119.10   9131            92                       1.25                              1.36
+KTLC1  KETTLEMAN HILLS                                  CA   36.03  120.06    810           233                       0.47                              0.20
+LAMC1  EF RUSSIAN - COYOTE DAM                          CA   39.20  123.19    670             9                       0.09                              1.03
+LARC1  LAPACHET RANCH                                   CA   38.03  120.98    260             8                       0.04                              0.48
+LAS    LAS VEGAS INTL AIRPORT                           NV   36.08  115.15   2162             0                       0.00                              0.09
+LAX    LOS ANGELES INTL AIRPORT                         CA   33.94  118.39     97             0                       0.00                              0.36
+LEGC1  SF EEL - LEGGETT                                 CA   39.87  123.72    700             4                       0.08                              1.91
+LEXC1  LOS GATOS CK - LEXINGTON RES                     CA   37.20  121.99    665             9                       0.09                              1.02
+LGB    LONG BEACH AIRPORT                               CA   33.81  118.15     31             3                       0.01                              0.36
+LGSC1  LOG SPRING                                       CA   39.83  122.79   5100             5                       0.05                              1.03
+LIJC1  LITTLEJOHN CK-FARMINGTON                         CA   37.93  121.00    105            23                       0.10                              0.44
+LMLN2  LAMOILLE #3                                      NV   40.65  115.38   7700            47                       0.35                              0.74
+LMPC1  LOMA PRIETA                                      CA   37.11  121.84   3788             8                       0.13                              1.56
+LMSC1  LA MESA                                          CA   32.77  117.02    530           166                       0.81                              0.49
+LMT    KLAMATH FALLS OR - ASOS                          OR   42.16  121.74   4090             0                       0.00                              0.25
+LOBC1  LOBDELL LK                                       CA   38.44  119.37   9233            18                       0.11                              0.60
+LOL    LOVELOCK ASOS                                    NV   40.07  118.57   3902            32                       0.03                              0.09
+LPRC1  CARMEL - LOS PADRES RES                          CA   36.39  121.67   1058            54                       0.40                              0.74
+LPTC1  LA PORTE                                         CA   39.68  120.99   5000            15                       0.38                              2.52
+LPZC1  LA PANZA (CDF)                                   CA   35.38  120.19   1633             0                       0.00                              0.35
+LSHC1  LAKESHORE                                        CA   40.87  122.39   1100             0                       0.00                              1.50
+LSLC1  LOS ALAMOS                                       CA   34.73  120.22    800             6                       0.04                              0.62
+LSNC1  LASSEN LODGE (CDF)                               CA   40.34  121.71   4159            37                       0.49                              1.32
+LSPC1  LAKE SPAULDING                                   CA   39.32  120.64   5156            27                       0.58                              2.14
+LSRC1  SANTA ROSA CK - CAMBRIA, NR                      CA   35.57  121.08     80             7                       0.04                              0.57
+LSTC1  LAST CHANCE                                      CA   34.49  119.05   4520             5                       0.04                              0.81
+LVK    LIVERMORE(ASOS)                                  CA   37.69  121.81    393             2                       0.01                              0.43
+LVTC1  LEAVITT MEADOWS                                  CA   38.30  119.55   7205            11                       0.06                              0.53
+LWDC1  SAN ANTONIO - LOCKWOOD, NR                       CA   35.90  121.09    795             0                       0.00                              0.41
+MADC1  RUTH LAKE                                        CA   40.32  123.37   2760             7                       0.12                              1.63
+MAE    MADERA(ASOS)                                     CA   36.99  120.11    253            20                       0.07                              0.35
+MAGC1  MAGOON (COE)                                     CA   37.49  119.81   3150            46                       0.42                              0.91
+MAMC1  MAMMOTH PASS                                     CA   37.61  119.03   9300            48                       0.69                              1.43
+MAPC1  MAPEL RANCH                                      CA   36.04  120.48   2640            35                       0.12                              0.34
+MAZC1  MANZANITA MOUNTAIN                               CA   34.89  120.08   3190             4                       0.03                              0.67
+MBKC1  NF KINGS - MEADOW BROOK                          CA   37.08  118.86   8150            91                       1.06                              1.17
+MCDO3  MC DERMITT 26 N                                  OR   42.41  117.86   4464            11                       0.02                              0.18
+MCE    MERCED ASOS                                      CA   37.28  120.51    153             7                       0.03                              0.40
+MCIC1  MCINTIRE ROAD                                    CA   38.22  121.04    180             0                       0.00                              0.58
+MCUC1  MCCLOUD DAM (PGE)                                CA   41.13  122.07   2690            12                       0.20                              1.65
+MFR    MEDFORD OR - ASOS                                OR   42.38  122.88   1300           142                       0.47                              0.33
+MGTC1  MT. GEORGE TRANMER                               CA   38.34  122.20   1000             4                       0.04                              1.14
+MHBC1  COSUMNES - MICHIGAN BAR                          CA   38.50  121.04    185             0                       0.00                              0.66
+MHMC1  MT HAMILTON                                      CA   37.35  121.63   4198            12                       0.09                              0.78
+MHS    MT SHASTA CITY (ASOS)                            CA   41.32  122.32   3590            30                       0.35                              1.15
+MINN2  MINDEN                                           NV   38.95  119.78   4709            28                       0.06                              0.22
+MKEC1  MARKLEEVILLE (USFS)                              CA   38.69  119.78   5501            21                       0.13                              0.61
+MNHC1  MOUNTAIN HOME (COE)                              CA   36.24  118.71   5400           184                       1.89                              1.03
+MNRC1  MINING RIDGE                                     CA   36.10  121.53   3288            18                       0.20                              1.10
+MNRN2  MOUNT ROSE SKI                                   NV   39.33  119.89   8320            13                       0.12                              0.91
+MOD    MODESTO(ASOS)                                    CA   37.63  120.95     97             5                       0.02                              0.39
+MORN2  MOREY CREEK (BLM)                                NV   41.45  117.62   5500            20                       0.09                              0.45
+MPCC1  MAPLE CREEK (CDF)                                CA   40.80  123.94   1680             4                       0.10                              2.33
+MRIC1  MARIPOSA R S (CDF)                               CA   37.49  119.99   2100            29                       0.29                              1.00
+MRLN2  MARLETTE LAKE                                    NV   39.16  119.90   7913            23                       0.20                              0.86
+MRNC1  SF EEL - MIRANDA, NR                             CA   40.18  123.78    218             5                       0.08                              1.57
+MSHC1  MT. ST. HELENA                                   CA   38.67  122.63   4140            16                       0.23                              1.41
+MTMC1  MOUNT MADONNA                                    CA   37.01  121.70   1822             4                       0.04                              1.01
+MTRC1  MUSTANG RIDGE                                    CA   36.19  120.76   2794            20                       0.12                              0.60
+MTZC1  MT. ZION (CDF)                                   CA   38.39  120.65   2967            14                       0.15                              1.05
+MUDC1  MUD SPRINGS                                      CA   40.72  123.29   3400             7                       0.09                              1.25
+MYV    MARYSVILLE(ASOS)                                 CA   39.10  121.57     62             2                       0.01                              0.63
+NACC1  NACIMIENTO - NACIMIENTO DAM                      CA   35.76  120.89    825             0                       0.00                              0.42
+NADC1  NATIVIDAD                                        CA   36.69  121.62     80            37                       0.16                              0.44
+NAPC1  ATLAS PEAK RD, TB                                CA   38.43  122.25   1660             5                       0.06                              1.11
+NBYC1  NACIMIENTO - SAPAQUE, BLO                        CA   35.79  121.09    800             0                       0.00                              0.44
+NFL    FALLON ASOS                                      NV   39.42  118.70   3934             0                       0.00                              0.11
+NHGC1  CALAVERAS - NEW HOGAN DAM                        CA   38.16  120.81    554             0                       0.00                              0.70
+NIPC1  LOPEZ REC AREA                                   CA   35.20  120.46    550             7                       0.04                              0.60
+NLSC1  NOEL SPRING                                      CA   39.54  122.67   5100            39                       0.41                              1.04
+NMSC1  STANISLAUS - NEW MELONES DAM                     CA   37.95  120.53   1400            36                       0.28                              0.78
+NRDC1  NORDHOFF RIDGE                                   CA   34.51  119.23   4100             0                       0.00                              0.69
+NTRC1  NATURE POINT                                     CA   37.34  119.35   5150            88                       0.90                              1.03
+OAK    OAKLAND(ASOS)                                    CA   37.72  122.22     86            15                       0.09                              0.60
+OCNC1  OCEANSIDE                                        CA   33.21  117.35     30           127                       0.37                              0.29
+OGOC1  OGO RANGER STATION                               CA   40.42  122.74   1300             0                       0.00                              1.10
+OITC1  COIT RANCH                                       CA   37.15  121.42   1696            12                       0.07                              0.58
+OKHC1  OAKHURST (COE)                                   CA   37.33  119.66   2230            63                       0.57                              0.91
+OKNC1  OAK KNOLL R S                                    CA   41.84  122.85   1953            24                       0.12                              0.51
+ONSC1  KLAMATH - ORLEANS                                CA   41.30  123.53    354             8                       0.12                              1.51
+ONT    ONTARIO AIRPORT                                  CA   34.06  117.60    947            24                       0.11                              0.45
+OPIC1  OPIDS CAMP (COE)                                 CA   34.26  118.09   4250            22                       0.20                              0.92
+ORDC1  FEATHER - OROVILLE DAM                           CA   39.53  121.52    900            17                       0.17                              1.01
+ORIC1  REDWOOD CK - ORICK                               CA   41.30  124.05      5            18                       0.32                              1.76
+OVE    OROVILLE(ASOS)                                   CA   39.49  121.62    190             6                       0.05                              0.81
+OWYN2  OWYHEE                                           NV   41.95  116.10   5391            23                       0.06                              0.26
+OXR    OXNARD AIRPORT                                   CA   34.20  119.21     43             0                       0.00                              0.49
+OYFO3  HOYT CREEK OR - RAWS                             OR   42.98  121.42   5500            12                       0.08                              0.67
+P68    EUREKA ASOS                                      NV   39.60  116.01   5936           400                       0.72                              0.18
+PCKC1  PECKINPAH                                        CA   37.25  119.46   5150           103                       1.12                              1.09
+PFRC1  PETRIFIED FOREST ROAD                            CA   38.58  122.63   1124            14                       0.15                              1.07
+PFTC1  KINGS - PINE FLAT DAM, BLO                       CA   36.83  119.32    615            97                       0.66                              0.68
+PGRC1  PINE GROVE                                       CA   38.40  120.63   2440            14                       0.15                              1.05
+PKFC1  PARKFIELD (CDF)                                  CA   35.90  120.43   1525             4                       0.02                              0.49
+PLCC1  PLACERVILLE                                      CA   38.70  120.82   1850             3                       0.04                              1.17
+PLIC1  ARBUCKLE BASIN (CDF)                             CA   40.44  122.83   2452             1                       0.01                              0.99
+PLLC1  NF FEATHER - PRATTVILLE, NR                      CA   40.21  121.16   4520            52                       0.47                              0.90
+PNOC1  PANOCHE ROAD                                     CA   36.64  120.64    500            27                       0.06                              0.22
+PORC1  POTTER VALLEY DIVERSION TO EF RUSSIAN            CA   39.37  123.13   1440            15                       0.19                              1.26
+POSC1  POISON RIDGE                                     CA   37.40  119.52   6900            87                       1.05                              1.21
+PRBC1  SALINAS - PASO ROBLES                            CA   35.63  120.69    700             0                       0.00                              0.54
+PRHC1  HURLEY (CDF)                                     CA   37.02  119.56   1296            91                       0.57                              0.63
+PRMC1  PALOMAR MOUNTAIN                                 CA   33.36  116.86   5560            46                       0.43                              0.93
+PRPC1  PIT P H #5 (PGE)                                 CA   40.99  121.98   1458             7                       0.15                              2.18
+PSCC1  PASCOES                                          CA   35.97  118.35   9150            74                       0.50                              0.68
+PSRC1  PROSSER CK - PROSSER CK DAM                      CA   39.38  120.14   5760            30                       0.19                              0.63
+PSTC1  PINECREST (PGE)                                  CA   38.19  120.01   5600             5                       0.04                              0.87
+PTPC1  POINT PINOS                                      CA   36.63  121.93     27             0                       0.00                              0.57
+PTRC1  PIT R - PH#1 (USGS)                              CA   40.98  121.51   2880            90                       0.46                              0.51
+PWEN2  PEAVINE MOGUL                                    NV   39.58  119.94   7860             7                       0.06                              0.82
+PYPC1  PINYON PEAK                                      CA   36.17  121.38   5264            14                       0.15                              1.05
+QNYC1  QUINCY-DWR                                       CA   39.94  120.95   3408            17                       0.25                              1.46
+QRMO3  QUARTZ MOUNTAIN                                  OR   42.32  120.83   5720             9                       0.05                              0.58
+QTZC1  QUARTZ HILL                                      CA   41.60  122.93   4238            55                       0.22                              0.40
+QUAC1  QUAKING ASPEN                                    CA   36.12  118.54   7200           144                       1.32                              0.92
+RAL    RIVERSIDE                                        CA   33.95  117.44    827             0                       0.00                              0.39
+RBL    RED BLUFF ASOS                                   CA   40.15  122.25    353            36                       0.22                              0.62
+RDD    REDDING                                          CA   40.52  122.30    502             4                       0.03                              0.85
+RDVC1  RODEO VALLEY                                     CA   39.67  123.32   2428            12                       0.16                              1.34
+REFC1  REFUGIO                                          CA   34.53  120.09   2610             5                       0.04                              0.78
+RENN2  MT. ROSE/XMAS TREE                               NV   39.34  119.86   7235            17                       0.12                              0.72
+REO    ROME                                             OR   42.59  117.86   4049             0                       0.00                              0.19
+RGCC1  ROGERS CAMP (COE)                                CA   36.11  118.64   6200           180                       1.45                              0.81
+RKBC1  ROCKY BUTTE                                      CA   35.67  121.05   3401             0                       0.00                              0.77
+RMNC1  RAMONA                                           CA   33.05  116.86   1420           155                       0.96                              0.62
+RNO    RENO AIRPORT                                     NV   39.48  119.77   4400             7                       0.01                              0.15
+ROBC1  ROBIDART RANCH                                   CA   38.14  121.03    315             0                       0.00                              0.55
+ROLC1  ROLLINS RSVR - BEAR R, COLFAX, NR                CA   39.13  120.95   1945            29                       0.41                              1.42
+RSAC1  SANTA ROSA (CDF)                                 CA   38.48  122.71    599            17                       0.16                              0.96
+RTLC1  RATTLESNAKE                                      CA   40.12  121.04   6100            45                       0.58                              1.29
+SAC    SACRAMENTO EXECUTIVE AIRPORT - ASOS              CA   38.51  121.50     21             0                       0.00                              0.53
+SAN    SAN DIEGO - LINDBERGH - ASOS                     CA   32.73  117.18     15           186                       0.65                              0.35
+SAPC1  METRO AIR PARK                                   CA   38.67  121.56     14             0                       0.00                              0.50
+SBTC1  SANTA BARBARA PORTRERO                           CA   34.77  119.65   5300             1                       0.01                              0.79
+SBYC1  SAN BERNARDINO COUNTY YARD                       CA   34.10  117.27   1042            24                       0.12                              0.49
+SCFN2  SPRING CREEK FS/55                               NV   40.80  115.68   5480            75                       0.15                              0.20
+SCHC1  SCHULTIES ROAD                                   CA   37.14  121.97   1400            16                       0.19                              1.21
+SCHN2  SPARKS-CANOE HILL                                NV   39.57  119.67   5000             5                       0.01                              0.20
+SCK    STOCKTON                                         CA   37.89  121.23     27             0                       0.00                              0.42
+SCKC1  STOCKTON FIRE STATION                            CA   38.00  121.32     12             0                       0.00                              0.52
+SCMC1  SCOTT MOUNTAIN                                   CA   41.27  122.72   5900            25                       0.17                              0.69
+SCRN2  STEAMBOAT CK - STEAMBOAT                         NV   39.38  119.74   4600            19                       0.04                              0.21
+SCSC1  TULE - SUCCESS DAM                               CA   36.06  118.92    692           300                       1.08                              0.36
+SDB    SANDBERG                                         CA   34.74  118.72   4510            57                       0.19                              0.33
+SDCC1  SADDLE CAMP                                      CA   40.17  122.80   3850             7                       0.08                              1.11
+SDFO3  SELDOM CREEK OR - RAWS                           OR   42.41  122.19   4875            12                       0.13                              1.06
+SDOC1  SILVERADO                                        CA   33.75  117.54   2800            35                       0.28                              0.81
+SERC1  SIERRAVILLE RS                                   CA   39.58  120.37   4975            10                       0.07                              0.69
+SFBC1  SPRING GAP FOREBAY (PGE)                         CA   38.17  120.10   5100            37                       0.39                              1.07
+SFO    SAN FRANCISCO WSO-INTL AIRPORT                   CA   37.62  122.38     13            26                       0.15                              0.57
+SFOC1  SAN FRANCISCO - DOWNTOWN                         CA   37.77  122.43    150            17                       0.11                              0.63
+SGEC1  STONY CK - STONY GORGE RES                       CA   39.58  122.53    800            58                       0.30                              0.51
+SGPC1  SUGAR PINE                                       CA   39.13  120.75   3843            17                       0.30                              1.74
+SHDC1  SACRAMENTO - SHASTA DAM                          CA   40.71  122.42   1075             0                       0.00                              1.83
+SHIC1  SHINGLETOWN                                      CA   40.50  121.85   3630            55                       0.67                              1.22
+SHNC1  SHANTI ASHRAMA                                   CA   37.32  121.47   2300             0                       0.00                              0.52
+SHPC1  SHELL PEAK                                       CA   35.08  120.19   2080             6                       0.04                              0.66
+SHQC1  SHADE QUARTER MTN (CDF)                          CA   36.57  118.96   4340            95                       0.89                              0.93
+SIY    MONTAGUE 5 NE                                    CA   41.78  122.47   2644            25                       0.11                              0.45
+SJBC1  FREMONT PEAK                                     CA   36.76  121.49   2838            30                       0.17                              0.56
+SJC    SAN JOSE INTERNATIONAL AIRPORT                   CA   37.36  121.92     51            10                       0.04                              0.39
+SLAC1  SPANISH LAKE                                     CA   36.33  120.53   4840            23                       0.11                              0.47
+SLMC1  STANISLAUS MEADOW                                CA   38.50  119.94   7750            17                       0.26                              1.53
+SLPC1  SLY PARK                                         CA   38.72  120.57   3530            15                       0.20                              1.37
+SLRC1  LOS BANOS                                        CA   37.05  121.05    350             4                       0.01                              0.27
+SLTC1  SLATE CREEK                                      CA   41.05  122.48   5700             5                       0.08                              1.69
+SMBC1  SOMES BAR (USFS)                                 CA   41.39  123.49    915             6                       0.09                              1.60
+SMCC1  SAN MARCOS PASS                                  CA   34.51  119.82   2300             0                       0.00                              0.79
+SMEC1  SOUTH MOUNTAIN EAST                              CA   34.30  119.04   1020             2                       0.01                              0.48
+SMF    SACRAMENTO INTERNATIONAL AIRPORT (ASOS)          CA   38.70  121.59     20             0                       0.00                              0.60
+SMIC1  SMITH MOUNTAIN                                   CA   36.08  120.61   3920            14                       0.09                              0.63
+SMRC1  SANTA MARGARITA BOOSTER                          CA   35.37  120.64   1100             0                       0.00                              1.05
+SMRO3  SUMMER RIM                                       OR   42.70  120.80   7080             9                       0.08                              0.87
+SMTC1  SACRAMENTO 5ESE                                  CA   38.56  121.42     49             0                       0.00                              0.58
+SMX    SANTA MARIA AIRPORT                              CA   34.90  120.45    254             4                       0.02                              0.51
+SNA    IRVINE - JOHN WAYNE AIRPORT - ASOS               CA   33.68  117.87     50             0                       0.00                              0.37
+SNS    SALINAS(ASOS)                                    CA   36.66  121.61     98            18                       0.08                              0.44
+SNWC1  SNOW MOUNTAIN                                    CA   40.78  121.78   5950            30                       0.51                              1.68
+SOAC1  SODA CREEK R S                                   CA   39.42  122.98   1725            13                       0.17                              1.27
+SOLC1  ARROYO SECO - SOLEDAD, NR                        CA   36.28  121.32    339            43                       0.20                              0.47
+SPCC1  SPRATT CK                                        CA   38.67  119.82   6115            23                       0.22                              0.96
+SPGC1  SALT SPRINGS P H (PGE)                           CA   38.50  120.22   3700            22                       0.30                              1.39
+SPHC1  SULPHUR CK - WHITE SULPHUR SPRINGS RD            CA   38.49  122.48    310             9                       0.08                              0.89
+SRAC1  SONORA PASS                                      CA   38.31  119.60   8827            10                       0.11                              1.14
+SRTC1  SANTA RITA (BLM)                                 CA   36.35  120.60   4650            37                       0.20                              0.54
+SSCN2  SEVENTYSIX CREEK                                 NV   41.74  115.47   7376            50                       0.24                              0.48
+SSLN2  STEAMBOAT CK - SPARKS (SHORT RD.)                NV   39.47  119.73   4415            11                       0.02                              0.18
+STAN2  STATELINE                                        NV   38.97  119.95   6235            53                       0.32                              0.61
+STBC1  WEST YARD                                        CA   37.31  122.00    174            20                       0.11                              0.56
+STEC1  SAN DIEGO - MAST ROAD, AT, SANTEE, NR            CA   32.84  117.03    300           203                       0.97                              0.48
+STHC1  ST HELENA 4SW, TB                                CA   38.49  122.54   1780            12                       0.16                              1.35
+STMN2  STAG MTN (BLM)                                   NV   41.52  115.39   6790            73                       0.16                              0.22
+STPC1  LTL TRUCKEE - STAMPEDE DAM                       CA   39.47  120.10   5690            11                       0.09                              0.81
+STS    SANTA ROSA(ASOS)                                 CA   38.50  122.81    114            21                       0.20                              0.96
+STYC1  STRAWBERRY VALLEY                                CA   39.56  121.11   3808            14                       0.31                              2.30
+SWBC1  SAWYERS BAR RS (USFS)                            CA   41.30  123.13   2192            20                       0.18                              0.90
+SYCC1  SYCAMORE CANYON                                  CA   34.58  119.08   4800             0                       0.00                              0.65
+SYFC1  STONYFORD(COOP)                                  CA   39.38  122.55   1168            62                       0.33                              0.54
+SYSC1  SANTA YSABEL                                     CA   33.11  116.67   2990           141                       1.12                              0.80
+TABC1  LAS TABLAS (CDF)                                 CA   35.66  120.92    970             4                       0.02                              0.50
+TACN2  TAYLOR CANYON                                    NV   41.23  116.03   6346            43                       0.10                              0.23
+TCRC1  THOMES CK - PASKENTA                             CA   39.89  122.52    720            25                       0.16                              0.65
+TEXN2  TEXAS SPRINGS (BLM)                              NV   41.80  118.45   5760            26                       0.09                              0.35
+TGSC1  TRINITY GUARD STATION                            CA   40.82  122.66   3870             6                       0.11                              1.75
+THLN2  THOMAS CK - RENO (LOWER)                         NV   39.39  119.84   6040            26                       0.14                              0.54
+THMN2  INCLINE VILLAGE THIRD CRK                        NV   39.30  119.92   8540            21                       0.23                              1.11
+THOC1  TAHOE CITY CROSS                                 CA   39.17  120.15   6790            15                       0.12                              0.79
+THSC1  TROUGH SPRING                                    CA   39.30  122.65   4000            55                       0.35                              0.63
+TIGC1  TIGER CREEK POWER HOUSE                          CA   38.45  120.48   2355            15                       0.22                              1.43
+TKEC1  TRUCKEE RANGER STATION                           CA   39.33  120.19   6020            33                       0.28                              0.84
+TLHC1  TELEGRAPH HILL                                   CA   38.03  120.35   3730            31                       0.36                              1.18
+TMDC1  KAWEAH - TERMINUS DAM                            CA   36.41  119.00    752           159                       0.71                              0.45
+TMRC1  TAMARACK SUMMIT                                  CA   37.16  119.20   7613            82                       0.97                              1.18
+TORC1  MT TORO                                          CA   36.55  121.63   2338            69                       0.47                              0.69
+TPH    TONOPAH AP                                       NV   38.06  117.09   5430           218                       0.24                              0.11
+TPKC1  THREE PEAKS                                      CA   35.85  121.32   3350            11                       0.08                              0.71
+TRHC1  TRINITY RIVER HATCHERY                           CA   40.73  122.79   1860             9                       0.07                              0.81
+TUMC1  TUOLUMNE MEADOWS                                 CA   37.87  119.35   8600            57                       0.44                              0.77
+TWDC1  CUYAMA - TWITCHELL DAM                           CA   34.98  120.32    692             0                       0.00                              0.60
+TYBO3  TAYLOR BUTTE                                     OR   42.69  121.43   5030             4                       0.02                              0.54
+TYRC1  TAYLOR RIDGE                                     CA   40.92  122.82   4000             6                       0.10                              1.56
+UKI    UKIAH                                            CA   39.13  123.20    626            10                       0.11                              1.07
+UMNC1  MT. UMUNHUM                                      CA   37.16  121.90   3090            12                       0.18                              1.47
+UTCC1  UNITED TECH CORP                                 CA   37.22  121.67    735            14                       0.12                              0.88
+UVAC1  UVAS CK - UVAS RES                               CA   37.07  121.69    489             5                       0.04                              0.84
+UVSC1  UVAS CANYON COUNTY PARK                          CA   37.09  121.80   1099             9                       0.11                              1.20
+VBPC1  VERDI / BEACON PEAK                              CA   39.52  120.04   7320            12                       0.10                              0.81
+VCB    VACAVILLE(ASOS)                                  CA   38.38  121.96    108            20                       0.13                              0.64
+VGAC1  VIRGINIA LAKES RIDGE                             CA   38.07  119.23   9445            31                       0.22                              0.70
+VICC1  VINEYARD CANYON                                  CA   35.86  120.60   1476             0                       0.00                              0.49
+VIOC1  MANZANITA LAKE (USFS)                            CA   40.54  121.58   5660            53                       0.53                              0.99
+VLSC1  VALLEY SPRINGS 2SW                               CA   38.18  120.86    831             1                       0.01                              0.68
+VNOC1  VENADO                                           CA   38.61  123.02   1260            10                       0.17                              1.75
+VTCC1  CENTRAL / VENTANA CONE                           CA   36.30  121.72   4750            35                       0.49                              1.39
+WCFC1  WESTFALL (COE)                                   CA   37.45  119.69   4880            76                       0.88                              1.16
+WDDC1  WOODLAND                                         CA   38.69  121.79     70             2                       0.01                              0.58
+WDFC1  WOODFORDS                                        CA   38.77  119.81   5700            32                       0.19                              0.59
+WEAC1  WEAVERVILLE RANGER STATION                       CA   40.73  122.94   2040             6                       0.06                              0.94
+WEEC1  WEED (CDF)                                       CA   41.48  122.45   2930            70                       0.31                              0.45
+WILC1  WILLITS HOWARD RS                                CA   39.30  123.29   1851            14                       0.19                              1.39
+WISC1  COUNTY LINE (BLM)NR WILBER SPRINGS               CA   39.02  122.41   2085            36                       0.24                              0.67
+WITC1  WHITMORE (CDF)                                   CA   40.62  121.90   2499            34                       0.38                              1.11
+WJF    LANCASTER(ASOS)                                  CA   34.74  118.22   2369             9                       0.02                              0.22
+WLMO3  WILLIAMS 1 NW                                    OR   42.23  123.29   1450            75                       0.50                              0.67
+WMC    WINNEMUCCA AIRPORT                               NV   40.90  117.81   4296           392                       0.63                              0.16
+WVI    WATSONVILLE(ASOS)                                CA   36.94  121.79    141            17                       0.09                              0.54

@@ -5,13 +5,12 @@ import urllib
 url = r'https://nationalmap.gov/epqs/pqs.php?'
 
 
-#test case
+# test case
 latitude = 33.770837
 longitude = -84.403632
 
 
-def elevation_function(latitude, longitude):
-    
+def elevation_function(latitude, longitude):  
     params = {
         'output': 'json',
         'x': longitude,
