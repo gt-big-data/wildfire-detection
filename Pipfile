@@ -12,6 +12,8 @@ pytest = "*"
 openpyxl = "*"
 ipykernel = "*"
 shapely = "*"
+geopandas = "*"
+flake8 = "*"
 
 [dev-packages]
 flake8 = "*"
