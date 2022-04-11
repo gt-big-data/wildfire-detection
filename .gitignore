@@ -1,5 +1,5 @@
 **/.idea/**
-
+.vscode/
 data/staging/
 
 # Byte-compiled / optimized / DLL files
