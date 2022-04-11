@@ -2,7 +2,7 @@ import pandas as pd
 from dash import Dash, dcc, html, Input, Output
 import json
 import random
-from src.hex_fig import get_hex_fig, hex_point_groups
+from src.hex_fig import hex_fig, agg_and_record, hex_point_groups
 from src.location_blurb import click_to_lat_lon
 
 # temporarily trimming dataset for testing
@@ -25,15 +25,12 @@ app.layout = html.Div([
     ),
 
     dcc.Graph(
-        figure=get_hex_fig(mock_df),
+        figure=hex_fig(mock_df, "fire_score", agg_and_record),
         id='fire-graph',
         className='bordered'
     ),
 
     dcc.Markdown(
-        '''
-        # Click Hex To See Underlying Data
-        ''',
         id='click-receiver',
         style={'text-align': 'left'}
     )
@@ -46,6 +43,8 @@ app.layout = html.Div([
     [Input('fire-graph', 'clickData')]
 )
 def display_location(clickData):
+    if not clickData:
+        return '# Click Hex to See Underlying Data'
     point_num = clickData['points'][0]['pointNumber']
     hex_data = hex_point_groups[point_num]
     lat, lon = click_to_lat_lon(clickData)
