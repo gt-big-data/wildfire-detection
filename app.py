@@ -1,21 +1,9 @@
-import pandas as pd
 from dash import Dash, dcc, html, Input, Output
-import json
-import random
 from src.hex_fig import hex_fig, agg_and_record, hex_point_groups
 from src.location_blurb import click_to_lat_lon
+from src.data import get_wildfire_data
 
-# temporarily trimming dataset for testing
-# generate fake fire data per location
-locations = json.load(open('data/locations.json'))
-mock_df = pd.DataFrame(
-    [
-        location + [random.random(), random.randint(2018, 2021)]
-        for location in locations[::15]
-    ],
-    columns=['lat', 'lon', 'fire_score', 'year']
-)
-
+df = get_wildfire_data()
 
 app = Dash(__name__)
 server = app.server
@@ -25,7 +13,7 @@ app.layout = html.Div([
     ),
 
     dcc.Graph(
-        figure=hex_fig(mock_df, "fire_score", agg_and_record),
+        figure=hex_fig(df, "fire_prob", agg_and_record),
         id='fire-graph',
         className='bordered'
     ),

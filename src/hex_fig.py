@@ -1,4 +1,3 @@
-from cProfile import label
 import plotly.figure_factory as ff
 from numpy import mean
 
@@ -12,7 +11,7 @@ HEX_ST = {
     'w': None,
     'h': None,
     'opac': 0.4,
-    'dens': 3
+    'dens': 8
 }
 
 
@@ -29,8 +28,8 @@ def get_hex_fig(df, use_count=True):
             {"color": "Fire Chance Max", "frame": "Year"}
             if use_count else
             {"color": "Fire Chance Mean", "frame": "Year"}),
-        color="fire_score" if use_count else "fire_score",
-        agg_func=aggregate_and_print if use_count else mean,
+        color="fire_prob" if use_count else "fire_prob",
+        agg_func=agg_and_record if use_count else mean,
         min_count=1,
         width=HEX_ST['w'],
         height=HEX_ST['h']
