@@ -1,3 +1,4 @@
+from cProfile import label
 import plotly.figure_factory as ff
 from numpy import mean
 
@@ -16,6 +17,7 @@ HEX_ST = {
 
 
 # mean fire probability per hex, based on mock data
+# will deprecate this in favor of hex_fig
 def get_hex_fig(df, use_count=True):
     hex_fig = ff.create_hexbin_mapbox(
         data_frame=df, lat="lat", lon="lon",
@@ -48,6 +50,34 @@ def get_hex_fig(df, use_count=True):
     return hex_fig
 
 
+def hex_fig(df, data_col_name, agg_func):
+    fig = ff.create_hexbin_mapbox(
+        data_frame=df,
+        lat="lat",
+        lon="lon",
+        mapbox_style=HEX_ST['map'],
+        nx_hexagon=HEX_ST['dens'],
+        opacity=HEX_ST['opac'],
+        labels={'color': data_col_name},
+        color=data_col_name,
+        agg_func=agg_func,
+        min_count=1,
+        width=HEX_ST['w'],
+        height=HEX_ST['h']
+    )
+
+    fig.update_layout(
+        clickmode='event+select',
+        margin={"r": 0, "t": 0, "l": 0, "b": 0},
+        plot_bgcolor=HEX_ST['bg'],
+        paper_bgcolor=HEX_ST['bg'],
+        font_size=HEX_ST['font-size'],
+        font_family=HEX_ST['font-fam']
+    )
+
+    return fig
+
+
 """
 Plotly is weird.
 
@@ -56,6 +86,6 @@ This corresponds to the order in which the underlying data is aggregated
 """
 
 
-def aggregate_and_print(num_list):
+def agg_and_record(num_list):
     hex_point_groups.append(num_list)
     return max(num_list)
