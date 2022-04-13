@@ -25,6 +25,7 @@ decorator==5.1.1; python_version >= '3.5'
 entrypoints==0.4; python_version >= '3.6'
 et-xmlfile==1.1.0; python_version >= '3.6'
 executing==0.8.3
+fastjsonschema==2.15.3
 fiona==1.8.21
 flake8==4.0.1
 flask-compress==1.11
@@ -34,12 +35,14 @@ geopandas==0.10.2
 gunicorn==20.1.0
 idna==3.3; python_version >= '3'
 importlib-metadata==4.11.3; python_version < '3.10'
+importlib-resources==5.7.0; python_version < '3.9'
 iniconfig==1.1.1
 ipykernel==6.13.0
 ipython==8.2.0; python_version >= '3.8'
 itsdangerous==2.1.2; python_version >= '3.7'
 jedi==0.18.1; python_version >= '3.6'
 jinja2==3.1.1; python_version >= '3.7'
+jsonschema==4.4.0; python_version >= '3.7'
 jupyter-client==7.2.2; python_version >= '3.7'
 jupyter-core==4.9.2; python_version >= '3.6'
 kiwisolver==1.4.2; python_version >= '3.7'
@@ -48,8 +51,9 @@ matplotlib-inline==0.1.3; python_version >= '3.5'
 matplotlib==3.5.1
 mccabe==0.6.1
 munch==2.5.0
+nbformat==5.3.0
 nest-asyncio==1.5.5; python_version >= '3.5'
-numpy==1.22.3; python_version >= '3.8'
+numpy==1.22.3; python_version < '3.10' and platform_machine != 'aarch64' and platform_machine != 'arm64'
 openpyxl==3.0.9
 packaging==21.3; python_version >= '3.6'
 pandas==1.4.2
@@ -69,6 +73,7 @@ pyflakes==2.4.0; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.
 pygments==2.11.2; python_version >= '3.5'
 pyparsing==3.0.8; python_full_version >= '3.6.8'
 pyproj==3.3.0; python_version >= '3.8'
+pyrsistent==0.18.1; python_version >= '3.7'
 pytest==7.1.1
 python-dateutil==2.8.2; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'
 pytz==2022.1

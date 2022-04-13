@@ -16,6 +16,7 @@ geopandas = "*"
 flake8 = "*"
 dash = "*"
 gunicorn = "*"
+nbformat = "*"
 
 [dev-packages]
 flake8 = "*"
