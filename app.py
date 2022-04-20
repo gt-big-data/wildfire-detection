@@ -1,7 +1,8 @@
 from dash import Dash, dcc, html, Input, Output
-from src.hex_fig import hex_fig, agg_and_record, hex_point_groups
+from src.hex_fig import hex_fig, hex_point_groups
 from src.location_blurb import click_to_lat_lon
 from src.data import get_wildfire_data
+from numpy import mean
 
 df = get_wildfire_data()
 
@@ -13,7 +14,7 @@ app.layout = html.Div([
     ),
 
     dcc.Graph(
-        figure=hex_fig(df, "fire_prob", agg_and_record),
+        figure=hex_fig(df, "fire_prob", mean),
         id='fire-graph',
         className='bordered'
     ),
