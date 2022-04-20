@@ -1,5 +1,4 @@
 import plotly.figure_factory as ff
-from numpy import mean
 
 hex_point_groups = []
 
