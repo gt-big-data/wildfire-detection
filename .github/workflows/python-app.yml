@@ -11,9 +11,7 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v2
     - name: Install pipenv
@@ -35,3 +33,8 @@ jobs:
     - name: Test with pytest
       run: |
         pipenv run pytest
+    - uses: akhileshns/heroku-deploy@v3.12.12 # This is the action
+      with:
+        heroku_api_key: ${{secrets.HEROKU_API_KEY}}
+        heroku_app_name: "bdbi-wildfires"
+        heroku_email: "kevinqiesq@gmail.com"
