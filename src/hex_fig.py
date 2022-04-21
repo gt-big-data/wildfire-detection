@@ -9,18 +9,17 @@ HEX_ST = {
     'bg': '#FF7F50',
     'w': None,
     'h': None,
-    'opac': 0.4,
-    'dens': 8
+    'opac': 0.2
 }
 
 
-def hex_fig(df, data_col_name, agg_func):
+def hex_fig(df, data_col_name, agg_func, density):
     fig = ff.create_hexbin_mapbox(
         data_frame=df,
         lat="lat",
         lon="lon",
         mapbox_style=HEX_ST['map'],
-        nx_hexagon=HEX_ST['dens'],
+        nx_hexagon=density,
         opacity=HEX_ST['opac'],
         labels={'color': data_col_name},
         color=data_col_name,

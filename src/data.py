@@ -1,19 +1,12 @@
 import pandas as pd
-import json
-import random
+import numpy as np
 
-DATA_PATH = 'analysis/final_demo_analysis/wildfire_predictions_v2.csv'
+DATA_PATH = 'deploy/wildfire_predictions_v2.csv'
 
 
 def get_mock_data():
-    locations = json.load(open('data/locations.json'))
-    df = pd.DataFrame(
-        [
-            location + [random.random(), random.randint(2018, 2021)]
-            for location in locations[::15]
-        ],
-        columns=['lat', 'lon', 'fire_prob', 'year']
-    )
+    df = pd.read_csv('deploy/grid.csv', index_col=0)
+    df['fire_prob'] = np.sin(df['lat']) + np.sin(df['lon'])
     return df
 
 

@@ -4,6 +4,25 @@ body {
   font-weight: 1000;
 }
 
+button{
+  display:inline-block;
+  padding:0.35em 1.2em;
+  border:0.3em solid #000000;
+  margin:0 0.3em 0.3em 0;
+  border-radius:0.2em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+  font-weight:600;
+  color:#FF7F50;
+  text-align:center;
+  transition: all 0.2s;
+}
+button:hover{
+  color:#000000;
+  background-color:#e4a9a9;
+}
+
 /* .bordered {
   border: 6px black solid;
   border-radius: 6px;

@@ -1,10 +1,11 @@
-from dash import Dash, dcc, html, Input, Output
+from dash import Dash, dcc, html, Input, Output, State
 from src.hex_fig import hex_fig, hex_point_groups
 from src.location_blurb import click_to_lat_lon
-from src.data import get_wildfire_data
+from src.data import get_wildfire_data, get_mock_data
 from numpy import mean
 
-df = get_wildfire_data()
+real_fig = hex_fig(get_wildfire_data(), "fire_prob", mean, 20)
+mock_fig = hex_fig(get_mock_data(), "fire_prob", mean, 60)
 
 app = Dash(__name__)
 server = app.server
@@ -13,8 +14,14 @@ app.layout = html.Div([
         id='weather-blurb'
     ),
 
+    html.Button(
+        'Switch Figure',
+        id='switch-button',
+        n_clicks=0
+    ),
+
     dcc.Graph(
-        figure=hex_fig(df, "fire_prob", mean),
+        figure=real_fig,
         id='fire-graph',
         className='bordered'
     ),
@@ -45,6 +52,17 @@ def display_location(clickData):
         f'{data_str}'
     )
     return blurb
+
+
+@app.callback(
+    Output('fire-graph', 'figure'),
+    Input('switch-button', 'n_clicks')
+)
+def switch_fig(n_clicks):
+    if n_clicks % 2 == 0:
+        return real_fig
+    else:
+        return mock_fig
 
 
 if __name__ == '__main__':
