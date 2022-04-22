@@ -10,15 +10,25 @@ mock_fig = hex_fig(get_mock_data(), "fire_prob", mean, 60)
 app = Dash(__name__)
 server = app.server
 app.layout = html.Div([
+    dcc.Markdown(
+        (
+            '# Wildfire Detection\n'
+            'Each hexagon\'s color tells you how likely a wildfire '
+            'is to occur within it. This probability score is actually '
+            'an average over the probabilities computed at many points '
+            'within the hex.'
+        )
+    ),
+
     html.H3(
         id='weather-blurb'
     ),
 
-    html.Button(
-        'Switch Figure',
-        id='switch-button',
-        n_clicks=0
-    ),
+    # html.Button(
+    #     'Switch Figure',
+    #     id='switch-button',
+    #     n_clicks=0
+    # ),
 
     dcc.Graph(
         figure=real_fig,
@@ -40,7 +50,7 @@ app.layout = html.Div([
 )
 def display_location(clickData):
     if not clickData:
-        return '# Click Hex to See Underlying Data'
+        return '# Click Hex to See Underlying Point Estimates'
     point_num = clickData['points'][0]['pointNumber']
     hex_data = hex_point_groups[point_num]
     lat, lon = click_to_lat_lon(clickData)
@@ -54,15 +64,15 @@ def display_location(clickData):
     return blurb
 
 
-@app.callback(
-    Output('fire-graph', 'figure'),
-    Input('switch-button', 'n_clicks')
-)
-def switch_fig(n_clicks):
-    if n_clicks % 2 == 0:
-        return real_fig
-    else:
-        return mock_fig
+# @app.callback(
+#     Output('fire-graph', 'figure'),
+#     Input('switch-button', 'n_clicks')
+# )
+# def switch_fig(n_clicks):
+#     if n_clicks % 2 == 0:
+#         return real_fig
+#     else:
+#         return mock_fig
 
 
 if __name__ == '__main__':
